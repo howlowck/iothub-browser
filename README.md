@@ -5,7 +5,11 @@
 * Sends Device-to-cloud messages
 * Monitors all IotHub Messages
 
+## Install
+Run `npm install --save-dev iothub-browser`
+
 ## How to Use IotHub Device(in the browser)
+Assuming you are using a bundler like browserify or webpack
 
 ```js
 import {connectDevice} from 'iothub-browser'
