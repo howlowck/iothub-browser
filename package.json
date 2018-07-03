@@ -2,7 +2,7 @@
   "name": "iothub-browser",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/iothub-browser.js",
+  "main": "src/index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
