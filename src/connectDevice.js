@@ -60,10 +60,10 @@ export default function connectDevice (deviceConnectionString, onC2DMessage) {
     client.publish(`devices/${deviceId}/messages/events/${appProps}`, messageStr, { qos: 1, retain: false })
   }
 
-  // const close = client.close.bind(client)
+  const close = client.end.bind(client)
 
   return {
-    publish
-    // close
+    publish,
+    close
   }
 }
