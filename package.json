@@ -1,6 +1,6 @@
 {
   "name": "iothub-browser",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "src/index.js",
   "types": "index.d.ts",
@@ -22,13 +22,13 @@
   "author": "Hao Luo <howlowck@gmail.com> (https://www.lifeishao.com)",
   "license": "MIT",
   "devDependencies": {
-    "create-hmac": "^1.1.7",
-    "mqtt": "^2.18.2",
-    "rhea": "^0.2.15",
     "webpack": "^4.14.0",
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
-    "debug": "^3.1.0"
+    "create-hmac": "^1.1.7",
+    "debug": "^3.1.0",
+    "mqtt": "^2.18.3",
+    "rhea": "^0.2.17"
   }
 }
