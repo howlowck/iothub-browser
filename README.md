@@ -18,9 +18,9 @@ const {publish, close} = connectDevice('{device connection string from iothub}',
   console.log(c2dMessage)
 })
 
-publish('{"message": "hello world"}', {prop1: "looks good"})
+publish(JSON.stringify({message: "hello world"}), {prop1: "looks good"})
 
-// ... to lose the connection
+// ... to close the connection
 close()
 ```
 
