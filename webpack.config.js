@@ -1,9 +1,13 @@
 const path = require('path')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js',
+    connectDevice: './src/connectDevice.js',
+    monitorEvents: './src/monitorEvents.js'
+  },
   output: {
-    filename: 'iothub-browser.min.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
     library: 'iothubBrowser',
     libraryTarget: 'umd'
