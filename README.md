@@ -1,5 +1,8 @@
 # IotHub Browser Only Package
 
+## Disclaimer:
+* :warning: It looks like iothub has recently changed its events endpoint. so the monitorEvents is currently not working.
+
 ## Features:
 * Receives Cloud-to-device messages
 * Sends Device-to-cloud messages
